@@ -15,9 +15,6 @@
       rel="stylesheet"
     />
 
-    <!-- SCROLL REVEAL  -->
-    <script src="https://unpkg.com/scrollreveal"></script>
-
     <!-- ICONS  -->
     <link
       href="https://unpkg.com/ionicons@4.2.2/dist/css/ionicons.min.css"
@@ -49,125 +46,121 @@
   </head>
 
   <body>
-    <div class="site-wrapper">
-      <header class="header">
-        <nav class="navbar navbar-expand-lg navbar-dark">
-          <div class="container-fluid">
-            <a class="navbar-brand" href="index.html">Vizcaya</a>
-            <button
-              class="navbar-toggler"
-              type="button"
-              data-toggle="collapse"
-              data-target="#navbarNav"
-              aria-controls="navbarNav"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-              <ul class="navbar-nav ml-auto">
-                <li class="nav-item active">
-                  <a class="nav-link" href="index.html"
-                    >Home <span class="sr-only">(current)</span></a
-                  >
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="about.html">About</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="contact.html">Contact</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </nav>
-
-        <div class="container">
-          <div class="row">
-            <div class="col-md-5">
-              &nbsp;
-            </div>
-            <div class="col-md-7 header-text">
-              <h1 class="lead-head">
-                <span class="lead1">Modern</span>
-                <span class="lead2">Made</span>
-                <span class="lead3">Simple</span>
-              </h1>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-md-5">
-              &nbsp;
-            </div>
-            <div class="col-md-7 header-text">
-              <p class="lead-p">
-                We are a French global design architecture studio based in
-                Paris, applying architecture design that knows no limits and
-                promotes a positive change.
-              </p>
-            </div>
-          </div>
-        </div>
-      </header>
-
-      <section id="location">
-        <div class="container">
-          <div id="map"></div>
-          <script>
-            mapboxgl.accessToken =
-              "pk.eyJ1IjoiYnJpdG9rMzAiLCJhIjoiY2p6bzR6OGVnMGFwOTNjbWtuamtqdDV0ZSJ9.qnR97mJrARa-GpriDvmJZA";
-            var map = new mapboxgl.Map({
-              container: "map",
-              style: "mapbox://styles/mapbox/dark-v9",
-              center: [2.3522, 48.8566],
-              zoom: 12
-            });
-
-            new mapboxgl.Marker().setLngLat([2.3522, 48.8566]).addTo(map);
-          </script>
-        </div>
-      </section>
-
-      <footer id="main-footer">
+    <header class="header">
+      <nav class="navbar navbar-expand-lg navbar-dark">
         <div class="container-fluid">
-          <div class="row">
-            <div class="col-md-6">
-              <p>Vizcaya &copy; 2019 All Rights Reserved</p>
-              <p>Designed by Kelvin Brito</p>
-              <p>1010 Collins Avenue, Miami Beach, FL 33140</p>
-              <p>Reservations 800-555-1010</p>
-            </div>
-            <div class="col-md-6">
-              <ul class="social-links">
-                <li>
-                  <a href="#"
-                    ><i class="footer-icon icon ion-logo-facebook"></i
-                  ></a>
-                </li>
-                <li>
-                  <a href="#"
-                    ><i class="footer-icon icon ion-logo-twitter"></i
-                  ></a>
-                </li>
-                <li>
-                  <a href="#"
-                    ><i class="footer-icon icon ion-logo-googleplus"></i
-                  ></a>
-                </li>
-                <li>
-                  <a href="#"
-                    ><i class="footer-icon icon ion-logo-youtube"></i
-                  ></a>
-                </li>
-              </ul>
-            </div>
+          <a class="navbar-brand" href="index.html">Vizcaya</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="index.html"
+                  >Home <span class="sr-only">(current)</span></a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+            </ul>
           </div>
         </div>
-      </footer>
-    </div>
+      </nav>
 
-    <!-- NICE SCROLL -->
+      <div class="container">
+        <div class="row">
+          <div class="col-md-5">
+            &nbsp;
+          </div>
+          <div class="col-md-7 header-text">
+            <h1 class="lead-head">
+              Modern Made Simple
+            </h1>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-5">
+            &nbsp;
+          </div>
+          <div class="col-md-7 header-text">
+            <p class="lead-p">
+              We are a French global design architecture studio based in Paris,
+              applying architecture design that knows no limits and promotes a
+              positive change.
+            </p>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section id="location">
+      <div class="container">
+        <div id="map"></div>
+        <script>
+          mapboxgl.accessToken =
+            "pk.eyJ1IjoiYnJpdG9rMzAiLCJhIjoiY2p6bzR6OGVnMGFwOTNjbWtuamtqdDV0ZSJ9.qnR97mJrARa-GpriDvmJZA";
+          var map = new mapboxgl.Map({
+            container: "map",
+            style: "mapbox://styles/mapbox/dark-v9",
+            center: [2.3522, 48.8566],
+            zoom: 12
+          });
+
+          new mapboxgl.Marker().setLngLat([2.3522, 48.8566]).addTo(map);
+        </script>
+      </div>
+    </section>
+
+    <footer id="main-footer">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-6">
+            <p>Vizcaya &copy; 2019 All Rights Reserved</p>
+            <p>Designed by Kelvin Brito</p>
+            <p>1010 Collins Avenue, Miami Beach, FL 33140</p>
+            <p>Reservations 800-555-1010</p>
+          </div>
+          <div class="col-md-6">
+            <ul class="social-links">
+              <li>
+                <a href="#"
+                  ><i class="footer-icon icon ion-logo-facebook"></i
+                ></a>
+              </li>
+              <li>
+                <a href="#"
+                  ><i class="footer-icon icon ion-logo-twitter"></i
+                ></a>
+              </li>
+              <li>
+                <a href="#"
+                  ><i class="footer-icon icon ion-logo-googleplus"></i
+                ></a>
+              </li>
+              <li>
+                <a href="#"
+                  ><i class="footer-icon icon ion-logo-youtube"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- NICE SCROLL  -->
 
     <script
       src="https://code.jquery.com/jquery-3.4.1.min.js"
@@ -175,13 +168,11 @@
       crossorigin="anonymous"
     ></script>
 
-    <script src="./js/jquery.nicescroll.min.js"></script>
+    <script src="js/jquery.nicescroll.min.js"></script>
 
-    <script src="./js/main.js"></script>
-
-    <script>
-
-      
-    </script>
+    <!-- SCROLL REVEAL -->
+    
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="js/main.js"></script>
   </body>
 </html>

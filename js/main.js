@@ -1,5 +1,5 @@
 $(function() {
-  $("html").niceScroll({
+  $("body").niceScroll({
     scrollspeed: 40
   });
 });
@@ -10,23 +10,9 @@ ScrollReveal().reveal(".navbar", {
   delay: 1000
 });
 
-ScrollReveal().reveal(".lead1", {
+ScrollReveal().reveal(".lead-head", {
   duration: 2000,
   origin: "bottom",
-  distance: "10rem",
-  delay: 100
-});
-
-ScrollReveal().reveal(".lead2", {
-  duration: 2000,
-  origin: "bottom",
-  distance: "10rem",
+  distance: "5rem",
   delay: 300
-});
-
-ScrollReveal().reveal(".lead3", {
-  duration: 2000,
-  origin: "bottom",
-  distance: "10rem",
-  delay: 500
 });
