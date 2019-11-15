@@ -1,0 +1,490 @@
+/* Variables 
+:root {
+  --color-primary: #3abac3;
+  --color-secondary: #e22a8e;
+  --color-dark-grey: #989898;
+  --color-light-grey: #b9b9b9;
+  --color-white: #fff;
+  --color-btn-hover: #46bdc4;
+} */
+
+/* Reset */
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* Main Styling */
+html,
+body {
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.2;
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+  background: #181818;
+  color: #fff;
+}
+
+/* body {
+  font-size: 62.5%;
+} */
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3 {
+  padding-bottom: 2rem;
+  text-transform: uppercase;
+  font-weight: 200;
+  text-align: center;
+}
+
+p {
+  margin: 1rem 0;
+}
+
+section {
+  padding: 8rem 0;
+}
+
+/* Utility Classes */
+
+.text-prime {
+  color: var(--color-primary);
+}
+
+.lead {
+  font-size: 2rem;
+}
+
+.btn {
+  display: inline-block;
+  font-size: 1.8rem;
+  padding: 1.3rem 2rem;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+}
+
+/* --------------------------
+HOME PAGE
+-------------------------- */
+
+/* Navbar  */
+#navbar {
+  text-transform: uppercase;
+  font-weight: 200;
+  font-size: 1.5rem;
+  padding: 2rem;
+}
+
+.navbar-toggler-icon {
+  color: ##fff;
+}
+
+.navbar {
+  color: #fff !important;
+}
+
+.navbar-brand {
+  font-size: 2rem;
+}
+
+/* Showcase  */
+
+.showcase-img {
+  background: url("../img/hero.jpg") no-repeat center center/cover;
+  width: 100%;
+  height: 100rem;
+}
+
+#showcase .showcase-content {
+  color: #000;
+  text-align: center;
+  padding-top: 20rem;
+}
+
+#showcase .showcase-content h1 {
+  font-size: 6rem;
+  line-height: 1.2;
+}
+
+#showcase .showcase-content p {
+  padding-bottom: 2.2rem;
+  line-height: 1.2;
+}
+
+/* Home Info */
+
+#home-info p {
+  font-size: 1.3rem;
+}
+
+.info-img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  overflow: hidden;
+  opacity: 0.6;
+  -webkit-transition: all 350ms ease;
+  transition: all 350ms ease;
+}
+
+.info-img:hover {
+  opacity: 1;
+}
+
+.info-content {
+  text-align: center;
+  padding: 5rem 0;
+  line-height: 2;
+}
+
+/* Features  */
+
+#features {
+  text-align: center;
+}
+
+.icon {
+  font-size: 5rem;
+  margin-bottom: 4rem;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+.icon:hover {
+  color: var(--color-primary);
+}
+
+.feat-prime {
+  background-color: var(--color-secondary);
+  color: var(--color-white);
+  padding: 6rem 0;
+}
+
+.feat-second-1 {
+  background-color: var(--color-light-grey);
+  color: var(--color-white);
+  padding: 6rem 0;
+}
+
+.feat-second-2 {
+  background-color: var(--color-light-grey);
+  color: var(--color-white);
+  padding: 6rem 0;
+}
+
+/* Social Media  */
+
+.social-img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  overflow: hidden;
+  opacity: 0.6;
+  -webkit-transition: all 350ms ease;
+  transition: all 350ms ease;
+}
+
+.social-img:hover {
+  opacity: 1;
+}
+
+.social-content {
+  text-align: center;
+  margin-top: 15rem;
+}
+
+/* Location */
+
+#map {
+  margin: auto;
+  width: 100%;
+  height: 85vh;
+  border-radius: 3px;
+}
+
+/* Gallery  */
+
+.gallery {
+  -webkit-column-count: 3;
+  column-count: 3;
+  -webkit-column-width: 33.3333%;
+  column-width: 33.3333%;
+}
+
+.gallery .pics {
+  -webkit-transition: all 350ms ease;
+  transition: all 350ms ease;
+  opacity: 0.6;
+}
+
+.gallery .pics:hover {
+  opacity: 1;
+}
+
+@media (max-width: 450px) {
+  .gallery {
+    -webkit-column-count: 1;
+    column-count: 1;
+    -webkit-column-width: 100%;
+    column-width: 100%;
+  }
+}
+
+@media (max-width: 400px) {
+  .btn.filter {
+    padding-left: 1.1rem;
+    padding-right: 1.1rem;
+  }
+}
+
+/* --------------------------
+ABOUT PAGE
+-------------------------- */
+
+#about-info {
+  text-align: center;
+}
+
+#about-info p {
+  line-height: 1.5;
+  font-size: 1.3rem;
+}
+
+#about-info img {
+  width: 70%;
+  border-radius: 50%;
+  opacity: 0.6;
+  -webkit-transition: all 350ms ease;
+  transition: all 350ms ease;
+}
+
+#about-info img:hover {
+  opacity: 1;
+}
+
+/* Testimonials  */
+
+#testimonials {
+  background: -webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      from(rgba(0, 0, 0, 0.363)),
+      to(rgba(0, 0, 0, 0.486))
+    ),
+    url(../img/miami-2.jpg) no-repeat center center/cover;
+  background: linear-gradient(rgba(0, 0, 0, 0.363), rgba(0, 0, 0, 0.486)),
+    url(../img/miami-2.jpg) no-repeat center center/cover;
+  padding: 10rem 0;
+}
+
+#testimonials h2,
+#testimonials p {
+  color: var(--color-white);
+}
+
+#testimonials h2 {
+  font-size: 3rem;
+  padding-bottom: 6rem;
+}
+
+#testimonials p {
+  font-size: 1.5rem;
+  text-align: center;
+  width: 50%;
+}
+
+.test-1 img,
+.test-2 img {
+  width: 10%;
+  border-radius: 50%;
+  margin-bottom: 4rem;
+  margin-left: 20rem;
+  margin-right: 4rem;
+}
+
+/* --------------------------
+CONTACT PAGE
+-------------------------- */
+
+#contact {
+  font-size: 1.5rem;
+  background: var(--color-white);
+}
+
+#contact p {
+  padding-bottom: 3rem;
+}
+
+#contact .form {
+  padding-bottom: 2rem;
+}
+
+#contact .contact-info p {
+  padding: 0;
+}
+
+/* Footer  */
+
+#main-footer {
+  text-align: center;
+  padding: 2.1rem;
+  background: var(--color-primary);
+}
+
+ul li {
+  display: inline;
+}
+
+.social-links {
+  list-style: none;
+}
+
+.footer-icon {
+  font-size: 2rem;
+  padding-left: 2rem;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+.footer-icon:hover {
+  color: var(--color-secondary);
+}
+
+/* 
+MEDIA QUERY  */
+
+/*Smart Phones */
+
+@media (max-width: 500px) {
+  #showcase .showcase-content h1 {
+    font-size: 4rem;
+  }
+
+  #showcase .showcase-content p {
+    font-size: 1rem;
+  }
+
+  #showcase .showcase-content .btn {
+    font-size: 1rem;
+  }
+
+  .info-content {
+    width: 100%;
+  }
+
+  .info-img {
+    margin: 0 auto;
+  }
+
+  #testimonials p {
+    margin: auto;
+    padding-bottom: 2rem;
+    font-size: 0.5rem;
+    min-width: 100%;
+  }
+
+  #testimonials .img-1 {
+    margin: auto;
+    width: 20%;
+  }
+
+  #testimonials .img-2 {
+    margin: auto;
+    width: 20%;
+  }
+
+  #contact {
+    text-align: center;
+  }
+
+  #contact-form .btn {
+    font-size: 0.5rem;
+    margin-top: 3rem;
+  }
+
+  #map {
+    width: 100%;
+    height: 50vh;
+  }
+}
+
+/* Tablets  */
+
+@media (min-width: 501px) and (max-width: 768px) {
+  html {
+    font-size: 0.4rem;
+  }
+
+  .info-content .col-md-6 {
+    min-width: 100%;
+  }
+
+  .info-img {
+    margin: 5rem;
+  }
+
+  .social-content {
+    margin: 4rem;
+  }
+
+  #testimonials p {
+    margin: auto;
+    padding-bottom: 2rem;
+  }
+
+  #testimonials .img-1 {
+    margin: auto;
+    width: 20%;
+  }
+
+  #testimonials .img-2 {
+    margin: auto;
+    width: 20%;
+  }
+
+  #contact {
+    text-align: center;
+  }
+
+  #contact-form {
+    text-align: center;
+  }
+
+  #contact-form .btn {
+    font-size: 0.5rem;
+    margin-top: 3rem;
+  }
+
+  #map {
+    width: 100%;
+    height: 60vh;
+  }
+}
+
+/* Normal  */
+
+@media (min-width: 769px) and (max-width: 1200px) {
+  .social-content {
+    margin: 4rem;
+  }
+
+  .info-img {
+    margin: 5rem;
+  }
+}
+
+/* Widescreen */
+
+@media (min-width: 1200px) {
+}
