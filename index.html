@@ -8,23 +8,31 @@
       name="description"
       content=" Vizcaya Architecture | Modern Made Simple"
     />
-    <meta name="keywords" content="architecture, miami" />
+    <meta name="keywords" content="architecture, france" />
 
     <link
       href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700&display=swap"
       rel="stylesheet"
     />
 
+    <!-- SCROLL REVEAL  -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- ICONS  -->
     <link
       href="https://unpkg.com/ionicons@4.2.2/dist/css/ionicons.min.css"
       rel="stylesheet"
     />
 
+    <!-- MAPBOX  -->
     <script src="https://api.mapbox.com/mapbox-gl-js/v1.2.0/mapbox-gl.js"></script>
+
     <link
       href="https://api.mapbox.com/mapbox-gl-js/v1.2.0/mapbox-gl.css"
       rel="stylesheet"
     />
+
+    <!-- BOOTSTRAP -->
 
     <link
       rel="stylesheet"
@@ -33,6 +41,8 @@
       crossorigin="anonymous"
     />
 
+    <!-- STYLES -->
+
     <link rel="stylesheet" href="css/style.css" />
 
     <title>Vizcaya Modern | Home</title>
@@ -40,19 +50,27 @@
 
   <body>
     <div class="site-wrapper">
-
       <header class="header">
-        <nav class="navbar navbar-expand-lg navbar-dark ">
+        <nav class="navbar navbar-expand-lg navbar-dark">
           <div class="container-fluid">
             <a class="navbar-brand" href="index.html">Vizcaya</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-              aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarNav"
+              aria-controls="navbarNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
               <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
               <ul class="navbar-nav ml-auto">
                 <li class="nav-item active">
-                  <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                  <a class="nav-link" href="index.html"
+                    >Home <span class="sr-only">(current)</span></a
+                  >
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="about.html">About</a>
@@ -64,26 +82,34 @@
             </div>
           </div>
         </nav>
-        
+
         <div class="container">
           <div class="row">
             <div class="col-md-5">
               &nbsp;
             </div>
             <div class="col-md-7 header-text">
-                <h1 class="lead-head">Modern Made Simple</h1>
+              <h1 class="lead-head">
+                <span class="lead1">Modern</span>
+                <span class="lead2">Made</span>
+                <span class="lead3">Simple</span>
+              </h1>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-5">
+              &nbsp;
+            </div>
+            <div class="col-md-7 header-text">
+              <p class="lead-p">
+                We are a French global design architecture studio based in
+                Paris, applying architecture design that knows no limits and
+                promotes a positive change.
+              </p>
             </div>
           </div>
         </div>
       </header>
-
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-lg-12">
-            &nbsp;
-          </div>
-        </div>
-      </div>
 
       <section id="location">
         <div class="container">
@@ -94,11 +120,11 @@
             var map = new mapboxgl.Map({
               container: "map",
               style: "mapbox://styles/mapbox/dark-v9",
-              center: [-80.13, 25.7907],
+              center: [2.3522, 48.8566],
               zoom: 12
             });
 
-            new mapboxgl.Marker().setLngLat([-80.13, 25.7907]).addTo(map);
+            new mapboxgl.Marker().setLngLat([2.3522, 48.8566]).addTo(map);
           </script>
         </div>
       </section>
@@ -139,59 +165,23 @@
           </div>
         </div>
       </footer>
-
     </div>
 
-    <!-- TECHSCROLL  -->
-    <script src="https://unpkg.com/scrollreveal"></script>
+    <!-- NICE SCROLL -->
+
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="./js/jquery.nicescroll.min.js"></script>
+
+    <script src="./js/main.js"></script>
 
     <script>
-      ScrollReveal().reveal(".navbar", {
-        duration: 2000,
-        origin: "bottom"
-      });
 
-      ScrollReveal().reveal(".showcase-content", {
-        duration: 2000,
-        origin: "bottom",
-        delay: 1000
-      });
-
-      ScrollReveal().reveal(".info-content", {
-        duration: 2000,
-        origin: "left",
-        distance: "30rem"
-      });
-
-      ScrollReveal().reveal("#features", {
-        duration: 2000,
-        origin: "bottom",
-        distance: "30rem"
-      });
-
-      ScrollReveal().reveal("#social", {
-        duration: 2000,
-        origin: "bottom",
-        distance: "30rem",
-        delay: 1000
-      });
-
-      ScrollReveal().reveal("#features", {
-        duration: 2000,
-        origin: "bottom",
-        distance: "30rem"
-      });
-
-      ScrollReveal().reveal("#gallery", {
-        duration: 2000,
-        origin: "bottom",
-        distance: "30rem"
-      });
-
-      ScrollReveal().reveal("#main-footer", {
-        duration: 2000,
-        origin: "bottom"
-      });
+      
     </script>
   </body>
 </html>

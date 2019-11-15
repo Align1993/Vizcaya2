@@ -47,6 +47,11 @@ body {
   font-weight: 700;
 }
 
+.lead-p {
+  font-size: 2rem;
+  font-weight: 100;
+}
+
 /* LOCATION */
 
 #map {
