@@ -1,18 +1,38 @@
 $(function() {
   $("body").niceScroll({
-    scrollspeed: 40
+    scrollspeed: 60
   });
 });
 
 ScrollReveal().reveal(".navbar", {
-  duration: 2000,
+  duration: 3000,
   origin: "bottom",
-  delay: 1000
 });
 
 ScrollReveal().reveal(".lead-head", {
-  duration: 2000,
+  duration: 3000,
   origin: "bottom",
   distance: "5rem",
   delay: 300
+});
+
+ScrollReveal().reveal(".design", {
+  duration: 3000,
+  origin: "bottom",
+  distance: "5rem",
+  delay: 300
+});
+
+ScrollReveal().reveal(".lead-p", {
+  duration: 3000,
+  origin: "bottom",
+  distance: "5rem",
+  delay: 400
+});
+
+ScrollReveal().reveal(".ione", {
+  duration: 3000,
+  origin: "bottom",
+  distance: "5rem",
+  delay: 1000
 });

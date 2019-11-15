@@ -4,28 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <meta
-      name="description"
-      content=" Vizcaya Architecture | Modern Made Simple"
-    />
+    <meta name="description" content=" Vizcaya Studio | Modern Made Simple" />
     <meta name="keywords" content="architecture, france" />
 
     <link
       href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700&display=swap"
-      rel="stylesheet"
-    />
-
-    <!-- ICONS  -->
-    <link
-      href="https://unpkg.com/ionicons@4.2.2/dist/css/ionicons.min.css"
-      rel="stylesheet"
-    />
-
-    <!-- MAPBOX  -->
-    <script src="https://api.mapbox.com/mapbox-gl-js/v1.2.0/mapbox-gl.js"></script>
-
-    <link
-      href="https://api.mapbox.com/mapbox-gl-js/v1.2.0/mapbox-gl.css"
       rel="stylesheet"
     />
 
@@ -42,14 +25,14 @@
 
     <link rel="stylesheet" href="css/style.css" />
 
-    <title>Vizcaya Modern | Home</title>
+    <title>Vizcaya Modern Studio | Home</title>
   </head>
 
   <body>
     <header class="header">
       <nav class="navbar navbar-expand-lg navbar-dark">
         <div class="container-fluid">
-          <a class="navbar-brand" href="index.html">Vizcaya</a>
+          <a class="navbar-brand" href="index.html">Vizcaya Studio</a>
           <button
             class="navbar-toggler"
             type="button"
@@ -71,6 +54,9 @@
               <li class="nav-item">
                 <a class="nav-link" href="about.html">About</a>
               </li>
+            <li class="nav-item">
+                <a class="nav-link" href="career.html">Jobs</a>
+            </li>
               <li class="nav-item">
                 <a class="nav-link" href="contact.html">Contact</a>
               </li>
@@ -82,7 +68,7 @@
       <div class="container">
         <div class="row">
           <div class="col-md-5">
-            &nbsp;
+            <div class="design"></div>
           </div>
           <div class="col-md-7 header-text">
             <h1 class="lead-head">
@@ -96,16 +82,128 @@
           </div>
           <div class="col-md-7 header-text">
             <p class="lead-p">
-              We are a French global design architecture studio based in Paris,
-              applying architecture design that knows no limits and promotes a
-              positive change.
+              We are a Swedish global design studio based in Stockholm, applying a
+              design that knows no limits and promotes a positive change.
             </p>
           </div>
         </div>
       </div>
     </header>
 
-    <section id="location">
+    <section id="about">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-6 ione">
+            &nbsp;
+          </div>
+          <div class="col-md-6 ">
+            <h2 class="sub-heading">
+              Vizcaya: Designer + Developer
+            </h2>
+            <p>
+              We’re built around the concept of a Design & Developer duo —
+              Focusing solely on senior creatives, cutting the overhead and
+              assuring our clients 100% senior competence in every project. Our
+              creatives has more than 7 years of experience designing,
+              developing & launching digital productions.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="details">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-5">
+            <h2 class="sub-heading">
+              We apply a holistic approach
+            </h2>
+          </div>
+          <div class="col-md-7">
+            <p>
+              Uncovering new behaviors based on user experiences analysis, we
+              tailor products according to our partners needs with applying a
+              multidisciplinary approach. We practice a design that has no
+              limits: using any available tools, sciences, media and techniques
+              for an industrial approach as well as a traditional artisanal
+              production. Our field of action covers product design, brand
+              identity, packaging, UX and UI, scenography, digital as well as
+              interior design.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="showcase">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-7 itwo">
+            <video
+              class="video"
+              preload="preload"
+              id="video"
+              autoplay="autoplay"
+              loop="loop"
+            >
+              <source src="./img/tiger.mp4" type="video/mp4" />
+            </video>
+          </div>
+
+          <div class="col-md-5">
+            <h2 class="sub-heading">Committed to design</h2>
+            <p>
+              Our clients come in all shapes and sizes. They vary from smaller
+              businesses launching a new website or product, to huge fashion
+              brands needing a new E-commerce; or larger production companies &
+              advertising agencies wanting to hire some extra digital muscles.
+            </p>
+            <p class="mini">Tiger of Sweden</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="showcase2">
+      <div class="row">
+        <div class="col-md-5">
+          <h1 class="design-head">
+            Identity
+          </h1>
+          <p>
+            Vizcaya create products and experiencesfor the challenges of the
+            digital age. Always trying not to create but inspire in an ever
+            changing design driven world.
+          </p>
+        </div>
+        <div class="col-md-7 itwo">
+          <video
+            class="video1"
+            preload="preload"
+            id="video"
+            autoplay="autoplay"
+            loop="loop"
+          >
+            <source src="./img/oas.mp4" type="video/mp4" />
+          </video>
+        </div>
+      </div>
+    </section>
+
+    <section id="showcase3">
+      <div class="row">
+            <div class="col-md-7 itwo">
+                <video class="video1" preload="preload" id="video" autoplay="autoplay" loop="loop">
+                    <source src="./img/" type="video/mp4" />
+                </video>
+            </div>
+      </div>
+    </section>
+
+    <section></section>
+
+    <!-- <section id="location">
       <div class="container">
         <div id="map"></div>
         <script>
@@ -121,7 +219,7 @@
           new mapboxgl.Marker().setLngLat([2.3522, 48.8566]).addTo(map);
         </script>
       </div>
-    </section>
+    </section> -->
 
     <footer id="main-footer">
       <div class="container-fluid">
@@ -168,10 +266,10 @@
       crossorigin="anonymous"
     ></script>
 
-    <script src="js/jquery.nicescroll.min.js"></script>
+    <script src="js/jquery.nicescroll.js"></script>
 
     <!-- SCROLL REVEAL -->
-    
+
     <script src="https://unpkg.com/scrollreveal"></script>
     <script src="js/main.js"></script>
   </body>

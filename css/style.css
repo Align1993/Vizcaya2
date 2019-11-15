@@ -14,6 +14,37 @@ body {
   font-family: "Montserrat", sans-serif;
   background: #181818;
   color: #fff;
+  overflow-x: hidden;
+}
+
+p {
+  font-size: 1.5rem;
+  font-weight: 200;
+}
+
+.mini {
+  font-size: 1.1rem;
+}
+
+section {
+  margin: 10rem 0;
+}
+
+/* UTILITIES */
+.sub-heading {
+  font-size: 5rem;
+}
+
+#about p,
+#details p,
+#showcase p,
+#showcase2 p {
+  line-height: 4rem;
+}
+
+.design-head {
+  font-size: 13rem;
+  font-weight: 700;
 }
 
 /* NAVBAR */
@@ -45,11 +76,33 @@ body {
   text-transform: uppercase;
   font-size: 13rem;
   font-weight: 700;
+  border-bottom: 0.4px solid rgba(255, 255, 255, 0.418);
+}
+
+.design {
+  margin-top: 7.5rem;
+  border: 3px solid #fff;
 }
 
 .lead-p {
   font-size: 2rem;
   font-weight: 100;
+}
+
+/* ABOUT  */
+.ione {
+  background: url("../img/about.jpg") no-repeat center center/cover;
+  height: 75vh;
+}
+
+/* SHOWCASES */
+
+.video {
+  width: 100%;
+}
+
+.video1 {
+  width: 90%;
 }
 
 /* LOCATION */
