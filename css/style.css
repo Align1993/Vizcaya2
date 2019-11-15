@@ -202,6 +202,15 @@ section {
   display: block;
 }
 
+/* FOOTER */
+#footer {
+  margin-top: 30rem;
+}
+
+.footer {
+  text-align: center;
+}
+
 /* CONATACTS PAGE */
 .contact-header {
   background: linear-gradient(rgba(0, 0, 0, 0.363), rgba(0, 0, 0, 0.363)),
@@ -220,11 +229,49 @@ section {
   font-size: 1.3rem;
 }
 
-/* FOOTER */
-#footer {
-  margin-top: 30rem;
+/* WORK PAGE  */
+
+.project-title h1 {
+  font-weight: 300;
 }
 
-.footer {
-  text-align: center;
+.project-categ {
+  font-weight: 100;
+  font-size: 1.3rem;
+}
+
+.cursor {
+  position: absolute;
+  width: 600px;
+  height: 400px;
+  top: 50%;
+  left: 50%;
+  transform: scale(0.1);
+  opacity: 0;
+  margin: -100px 0 0 -100px;
+  background: url(image-1.jpg) no-repeat 50% 50%;
+  background-size: cover;
+  z-index: 1;
+}
+
+.project {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  padding: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-basis: 1;
+  position: relative;
+  z-index: 2;
+  color: white;
+  mix-blend-mode: difference;
+}
+
+.project-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
 }
