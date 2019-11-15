@@ -187,6 +187,13 @@ ScrollReveal().reveal(".l13", {
   delay: 500
 });
 
+ScrollReveal().reveal(".mini-foot", {
+  duration: 3500,
+  origin: "bottom",
+  distance: "5rem",
+  delay: 1000
+});
+
 
 ScrollReveal().reveal(".f1", {
   duration: 3500,

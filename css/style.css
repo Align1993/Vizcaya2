@@ -190,8 +190,12 @@ section {
   filter: invert(100%);
 }
 #client .logo2 {
-  width: 60%;
+  width: 55%;
 }
+
+/* .c {
+  position: relative;
+} */
 
 #client .client {
   margin: 3rem auto;
