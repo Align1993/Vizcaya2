@@ -105,28 +105,28 @@ ScrollReveal().reveal(".l2", {
   duration: 3500,
   origin: "bottom",
   distance: "5rem",
-  delay: 250
+  delay: 200
 });
 
 ScrollReveal().reveal(".l3", {
   duration: 3500,
   origin: "bottom",
   distance: "5rem",
-  delay: 300
+  delay: 400
 });
 
 ScrollReveal().reveal(".l4", {
   duration: 3500,
   origin: "bottom",
   distance: "5rem",
-  delay: 350
+  delay: 600
 });
 
 ScrollReveal().reveal(".l5", {
   duration: 3500,
   origin: "bottom",
   distance: "5rem",
-  delay: 400
+  delay: 800
 });
 
 ScrollReveal().reveal(".l6", {
@@ -140,21 +140,21 @@ ScrollReveal().reveal(".l7", {
   duration: 3500,
   origin: "bottom",
   distance: "5rem",
-  delay: 250
+  delay: 400
 });
 
 ScrollReveal().reveal(".l8", {
   duration: 3500,
   origin: "bottom",
   distance: "5rem",
-  delay: 300
+  delay: 600
 });
 
 ScrollReveal().reveal(".l9", {
   duration: 3500,
   origin: "bottom",
   distance: "5rem",
-  delay: 350
+  delay: 800
 });
 
 ScrollReveal().reveal(".l10", {
@@ -202,6 +202,56 @@ ScrollReveal().reveal(".f3", {
   duration: 3500,
   origin: "bottom",
   delay: 650
+});
+
+
+ScrollReveal().reveal(".a1", {
+  duration: 3500,
+  origin: "bottom",
+  distance: "5rem",
+  delay: 200
+});
+
+ScrollReveal().reveal(".a2", {
+  duration: 3500,
+  origin: "bottom",
+  distance: "5rem",
+  delay: 400
+});
+
+ScrollReveal().reveal(".a3", {
+  duration: 3500,
+  origin: "bottom",
+  distance: "5rem",
+  delay: 600
+});
+
+ScrollReveal().reveal(".a4", {
+  duration: 3500,
+  origin: "bottom",
+  distance: "5rem",
+  delay: 800
+});
+
+ScrollReveal().reveal(".a5", {
+  duration: 3500,
+  origin: "bottom",
+  distance: "5rem",
+  delay: 1000
+});
+
+ScrollReveal().reveal(".a6", {
+  duration: 3500,
+  origin: "bottom",
+  distance: "5rem",
+  delay: 1200
+});
+
+ScrollReveal().reveal(".a7", {
+  duration: 3500,
+  origin: "bottom",
+  distance: "5rem",
+  delay: 1400
 });
 
 // WORK SCRIPTS
