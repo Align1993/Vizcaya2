@@ -1,7 +1,7 @@
-// ScrollReveal().reveal(".navbar", {
-//   duration: 3000,
-//   origin: "bottom"
-// });
+ScrollReveal().reveal(".navbar", {
+  duration: 3000,
+  origin: "bottom"
+});
 
 ScrollReveal().reveal(".lead-head", {
   duration: 3000,
