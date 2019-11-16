@@ -223,7 +223,7 @@ section {
   font-size: 2.3rem;
 }
 
-/* CONATACTS PAGE */
+/* CONTACTS PAGE */
 .contact-header {
   background: linear-gradient(rgba(0, 0, 0, 0.363), rgba(0, 0, 0, 0.363)),
     url("../img/contact.jpeg") no-repeat center center/cover;
@@ -295,6 +295,14 @@ section {
   z-index: 1;
 }
 
+.p-6 {
+  margin-bottom: 30rem;
+}
+
+
+
+
+
 /* -----------------------
 MEDIA QUERIES
 ----------------------- */
@@ -348,8 +356,7 @@ MEDIA QUERIES
 */
 
 @media (min-width: 481px) and (max-width: 767px) {
-
-   .lead-head {
+  .lead-head {
     font-size: 5rem;
     padding-bottom: 3rem;
   }
@@ -384,7 +391,6 @@ MEDIA QUERIES
     width: 30rem;
     height: 20rem;
   }
-
 }
 
 /* 
@@ -393,7 +399,7 @@ MEDIA QUERIES
 */
 
 @media (min-width: 768px) and (max-width: 1023px) {
-   .lead-head {
+  .lead-head {
     font-size: 5.5rem;
     padding-bottom: 3rem;
   }
@@ -436,7 +442,7 @@ MEDIA QUERIES
 */
 
 @media (min-width: 768px) and (max-width: 1023px) and (orientation: landscape) {
-   .lead-head {
+  .lead-head {
     font-size: 5.5rem;
     padding-bottom: 3rem;
   }
@@ -525,7 +531,7 @@ MEDIA QUERIES
 */
 
 @media (min-width: 1024px) and (max-width: 1280px) {
-   .lead-head {
+  .lead-head {
     font-size: 5.5rem;
     padding-bottom: 3rem;
   }
