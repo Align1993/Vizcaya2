@@ -262,8 +262,8 @@ section {
 
 .cursor {
   position: absolute;
-  width: 600px;
-  height: 400px;
+  width: 60rem;
+  height: 40rem;
   top: 50%;
   left: 50%;
   transform: scale(0.1);
@@ -307,6 +307,7 @@ MEDIA QUERIES
 @media (min-width: 320px) and (max-width: 480px) {
   .lead-head {
     font-size: 5rem;
+    padding-bottom: 3rem;
   }
 
   p {
@@ -328,6 +329,16 @@ MEDIA QUERIES
 
   #awards .design-head {
     font-size: 3.3rem;
+  }
+
+  .work-header .project-title h1 {
+    font-size: 3rem;
+    font-weight: 300;
+  }
+
+  .cursor {
+    width: 30rem;
+    height: 20rem;
   }
 }
 
