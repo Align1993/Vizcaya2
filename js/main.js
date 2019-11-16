@@ -1,7 +1,6 @@
-
 ScrollReveal().reveal(".navbar", {
   duration: 3000,
-  origin: "bottom",
+  origin: "bottom"
 });
 
 ScrollReveal().reveal(".lead-head", {
@@ -45,7 +44,6 @@ ScrollReveal().reveal(".design-head2", {
   distance: "5rem",
   delay: 400
 });
-
 
 ScrollReveal().reveal(".design-head3", {
   duration: 3000,
@@ -194,14 +192,12 @@ ScrollReveal().reveal(".mini-foot", {
   delay: 1000
 });
 
-
 ScrollReveal().reveal(".f1", {
   duration: 3500,
   origin: "bottom",
   distance: "5rem",
   delay: 500
 });
-
 
 ScrollReveal().reveal(".f2", {
   duration: 3500,
@@ -217,15 +213,10 @@ ScrollReveal().reveal(".f3", {
   delay: 650
 });
 
-
-
-
-
-
 // WORK SCRIPTS
 
-var $cursor = $(".cursor"),
-  $overlay = $(".project-overlay");
+let $cursor = $(".cursor");
+let $overlay = $(".project-overlay");
 function moveCircle(e) {
   TweenLite.to($cursor, 0.5, {
     css: {
@@ -235,30 +226,35 @@ function moveCircle(e) {
     delay: 0.03
   });
 }
-$(".p-1").hover(function () {
-  $(".cursor").css({ "background-image": "url(../../../img/image-1.jpg)" });
+
+$(".p-1").hover(function() {
+  $(".cursor").css({ "background-image": "url(../../../img/koenigsegg.jpg)" });
 });
-$(".p-2").hover(function () {
-  $(".cursor").css({ "background-image": "url(../../../img/image-2.jpg)" });
+$(".p-2").hover(function() {
+  $(".cursor").css({
+    "background-image": "url(../../../img/beyerdynamic.jpg)"
+  });
 });
-$(".p-3").hover(function () {
-  $(".cursor").css({ "background-image": "url(../../../img/image-3.jpg)" });
+$(".p-3").hover(function() {
+  $(".cursor").css({ "background-image": "url(../../../img/tomford.jpg)" });
 });
-$(".p-4").hover(function () {
-  $(".cursor").css({ "background-image": "url(../../../img/image-4.jpg)" });
+$(".p-4").hover(function() {
+  $(".cursor").css({ "background-image": "url(../../../img/piech.png)" });
 });
-var flag = false;
-$($overlay).mousemove(function () {
+$(".p-5").hover(function() {
+  $(".cursor").css({ "background-image": "url(../../../img/Eos.png)" });
+});
+$(".p-6").hover(function() {
+  $(".cursor").css({ "background-image": "url(../../../img/amarillo.png)" });
+});
+
+let flag = false;
+$($overlay).mousemove(function() {
   flag = true;
   TweenLite.to($cursor, 0.3, { scale: 1, autoAlpha: 1 });
   $($overlay).on("mousemove", moveCircle);
 });
-$($overlay).mouseout(function () {
+$($overlay).mouseout(function() {
   flag = false;
   TweenLite.to($cursor, 0.3, { scale: 0.1, autoAlpha: 0 });
 });
-
-
-
-
-

@@ -181,6 +181,7 @@ section {
 }
 
 /* CLIENTS */
+
 #client .sub-heading {
   text-align: center;
 }
@@ -192,10 +193,6 @@ section {
 #client .logo2 {
   width: 55%;
 }
-
-/* .c {
-  position: relative;
-} */
 
 #client .client {
   margin: 3rem auto;
@@ -209,6 +206,18 @@ section {
 
 .footer {
   text-align: center;
+}
+
+/* AWARDS */
+
+#awards .design-head {
+  font-size: 10rem;
+  font-weight: 600;
+}
+
+#awards ul li {
+  display: block;
+  font-size: 3rem;
 }
 
 /* CONATACTS PAGE */
@@ -225,13 +234,21 @@ section {
   height: 100vh;
 }
 
+/* CAREERS PAGE */
+.career-header {
+  background: linear-gradient(rgba(0, 0, 0, 0.363), rgba(0, 0, 0, 0.363)),
+    url("../img/jobs.jpeg") no-repeat center center/cover;
+  height: 100vh;
+}
+
 #career a {
   font-size: 1.3rem;
 }
 
 /* WORK PAGE  */
 
-.project-title h1 {
+.work-header .project-title h1 {
+  font-size: 5rem;
   font-weight: 300;
 }
 
